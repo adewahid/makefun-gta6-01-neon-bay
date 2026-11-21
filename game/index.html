@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Neon Bay — an open-world crime story</title>
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: #14101f;
+    height: 100%;
+    overflow: hidden;
+  }
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #game {
+    width: 1280px;
+    height: 720px;
+    display: block;
+    background: #1b1035;
+    box-shadow: 0 0 60px rgba(255, 46, 136, 0.35);
+  }
+  #fallback {
+    color: #ddd;
+    font: 16px Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+</style>
+</head>
+<body>
+<canvas id="game" width="1280" height="720"></canvas>
+<noscript><div id="fallback">Neon Bay needs JavaScript to play.</div></noscript>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
