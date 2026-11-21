@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Neon Bay — Open City Crime</title>
+<style>
+  html, body { margin: 0; padding: 0; height: 100%; background: #0b0e1a; overflow: hidden; }
+  #wrap { position: fixed; inset: 0; }
+  canvas { display: block; width: 100%; height: 100%; image-rendering: auto; }
+  #note { position: fixed; left: 10px; bottom: 8px; color: rgba(255,255,255,.45);
+    font: 12px system-ui, sans-serif; letter-spacing: .04em; user-select: none;
+    pointer-events: none; text-shadow: 0 1px 2px #000; }
+</style>
+</head>
+<body>
+<div id="wrap"><canvas id="game"></canvas></div>
+<div id="note">NEON BAY &middot; WASD drive &amp; walk &middot; E enter car &middot; F punch &middot; click shoot &middot; P pause &middot; M mute</div>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
