@@ -5,6 +5,8 @@
 [![rate](https://make.fun/badge/gta6-01/adewahid/makefun-gta6-01-neon-bay/rate.svg)](https://make.fun/bounty/gta6-01)
 [![reward](https://make.fun/badge/gta6-01/adewahid/makefun-gta6-01-neon-bay/reward.svg)](https://make.fun/bounty/gta6-01)
 
+Solmar Bay is a fan-made open-world crime game built for the make.fun GTA 6 bounty — drive, steal cars, and outrun the law across a sun-soaked coastal city.
+
 Referral: [make.fun/r/zsgcm8j7](https://make.fun/r/zsgcm8j7)
 
 Solmar Bay is an original top-down open-world crime game built for the
